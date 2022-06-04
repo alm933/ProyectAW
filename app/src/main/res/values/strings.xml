@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProyectAW</string>
+    <string name="app_email">Email</string>
+    <string name="app_password">Password</string>
+    <string name="app_login">Login</string>
+    <string name="app_register">Register</string>
+
+
+</resources>
