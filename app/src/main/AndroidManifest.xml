@@ -14,6 +14,9 @@
         android:theme="@style/Theme.ProyectAW"
         tools:targetApi="31">
         <activity
+            android:name=".Producto"
+            android:exported="false" />
+        <activity
             android:name=".VistadePrueba2"
             android:exported="false" />
         <activity

@@ -6,12 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".VistadePrueba2">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Se Logro"
-        android:textSize="60sp"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="272dp" />
+    <Button
+        android:id="@+id/botonproducto"
+        android:layout_width="194dp"
+        android:layout_height="296dp"
+        android:layout_marginTop="56dp"
+        android:drawableTop="@drawable/gcopia2"
+        android:text="Anagesico 300ml (inyectable)
+         -
+                                $200"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

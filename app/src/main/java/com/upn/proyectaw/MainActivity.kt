@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
 
             }else{
-                Toast.makeText(this,"cREDENCIALES INCRORRECTAS",Toast.LENGTH_LONG).show();
+                Toast.makeText(this,"CREDENCIALES INCRORRECTAS",Toast.LENGTH_LONG).show();
 
             }
         }
