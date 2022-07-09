@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VistadeProducto3">
+
+
+    <ImageView
+        android:id="@+id/nastiflu"
+        android:layout_width="187dp"
+        android:layout_height="178dp"
+        app:srcCompat="@drawable/analgesico512" />
+
+    <ImageView
+        android:id="@+id/imagenProducto2"
+        android:layout_width="188dp"
+        android:layout_height="178dp"
+        android:layout_marginLeft="220dp"
+        app:srcCompat="@drawable/oximetro" />
+
+    <TextView
+        android:id="@+id/nastifluT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:text="Nastiflu Tableta"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="180dp"
+        android:text="EN-06573" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="200dp"
+        android:text="Oximetro"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="180dp"
+        android:text="EN-030464L" />
+
+    <TextView
+        android:id="@+id/precionas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="225dp"
+        android:text="@string/line"
+
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="225dp"
+        android:text="$ 89.90"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/precionas2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="225dp"
+        android:text="$0.87"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="187dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="280dp"
+        app:srcCompat="@drawable/multivitaminas" />
+
+    <TextView
+        android:id="@+id/idimg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="60dp"
+        android:text="TBO20UN"
+        ></TextView>
+
+</RelativeLayout>

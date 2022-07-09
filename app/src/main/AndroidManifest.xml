@@ -3,24 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.upn.proyectaw">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectAW"
         tools:targetApi="31">
         <activity
-            android:name=".Producto"
+            android:name=".Mapa"
             android:exported="false" />
         <activity
-            android:name=".VistadePrueba2"
-            android:exported="false" />
-        <activity
-            android:name=".RegistrarActivity"
+            android:name=".RegistrarFirebase"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -31,6 +31,50 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".RegistrarProducto"
+            android:exported="false" />
+        <activity
+            android:name=".lista_productos"
+            android:exported="false" />
+        <activity
+            android:name=".ListaUsuarios"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarActivityUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VistadeProducto3"
+            android:exported="false" />
+        <activity
+            android:name=".Producto"
+            android:exported="false" />
+        <activity
+            android:name=".VistadePrueba2"
+            android:exported="false" />
+
+        <meta-data
+            android:name="android.support.PANRET_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <meta-data
+            android:name="com.google.android.geo.API.KEY"
+            android:value="AIzaSyBG97rRN_-lJMbxODZCJ0oipmskx5NXeoA"
+            />
     </application>
 
 </manifest>

@@ -7,6 +7,28 @@
     tools:context=".VistadePrueba2">
 
     <Button
+        android:id="@+id/botonproductodos"
+        android:layout_width="111dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="36dp"
+        android:drawableTop="@drawable/dexabron128"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/botonproducto" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Nastiflu Tableta"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonproducto" />
+
+    <Button
         android:id="@+id/botonproducto"
         android:layout_width="111dp"
         android:layout_height="104dp"
@@ -19,15 +41,15 @@
         />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="Nastiflu Tableta"
+        android:layout_marginStart="116dp"
+        android:text="Dexabron Plus"
         android:textColor="@color/black"
         android:textSize="14sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/botonproducto" />
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        tools:layout_editor_absoluteY="104dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
